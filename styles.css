@@ -1,0 +1,36 @@
+*  {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Satoshi', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  height: 100vh;
+  background-color: #1a1e11;
+}
+
+img {
+  flex-grow: 1;
+  height: calc(100vh - 80px);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to bottom, #353c1a, #a7a6a0);
+}
+
+header,
+.container,
+.form-actions {
+  padding: 40px;
+}
+
+.container {
+  background-color: white;
+}
