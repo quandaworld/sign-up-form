@@ -18,13 +18,27 @@ body {
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 5px;
+  align-items: center;
 }
 
-.img-container p {
+.brand-container {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#brand {
+  font-size: 90px;
+  font-family: 'Rosaline', cursive;
+  color: white;
+}
+
+.img-container > p {
   color: white;
   font-weight: 400;
+  position: absolute;
+  bottom: 3px;
 }
 
 .img-container a {
@@ -56,7 +70,7 @@ p:nth-child(2) {
   margin-top: 18px;
 }
 
-.container p {
+.container > p {
   margin-bottom: 18px;
 }
 
