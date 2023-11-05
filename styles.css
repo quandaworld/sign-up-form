@@ -9,19 +9,35 @@ body {
   display: flex;
   flex-direction: row;
   height: 100vh;
+  color: #361F0E;
 }
 
-img {
-  flex-grow: 1;
-  height: 100vh;
+.img-container {
+  width: 70%;
+  background: url(/images/lucas-mendes-TkDqIqHAwew-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+.img-container p {
+  color: white;
+  font-weight: 400;
+}
+
+.img-container a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
 }
 
 .form-container {
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(to bottom, #353c1a, #a7a6a0);
+  background-color: antiquewhite;
 }
 
 header,
@@ -85,6 +101,12 @@ label {
 
 .form-actions p {
   font-weight: 500;
+}
+
+.form-actions a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #982B02;
 }
 
 @media only screen and (min-width: 700px) {
