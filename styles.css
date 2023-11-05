@@ -7,7 +7,7 @@
 
 body {
   display: flex;
-  flex-directform-actions;
+  flex-direction: row;
   height: 100vh;
 }
 
@@ -50,7 +50,7 @@ p:nth-child(2) {
 
 .input-container {
   display: flex;
-  flex-directform-actions;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -81,10 +81,6 @@ label {
 
 .form-actions button:hover {
   background-color: rgb(156, 61, 27);
-}
-
-.form-actions button:active {
-  background-color: #407FC7;
 }
 
 .form-actions p {
