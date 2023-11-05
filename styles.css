@@ -34,3 +34,7 @@ header,
 .container {
   background-color: white;
 }
+
+.input-container {
+  display: flex;
+}
