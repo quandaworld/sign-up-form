@@ -14,7 +14,7 @@ body {
 
 .img-container {
   width: 70%;
-  background: url(/images/lucas-mendes-TkDqIqHAwew-unsplash.jpg);
+  background: url(./images/lucas-mendes-TkDqIqHAwew-unsplash.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
