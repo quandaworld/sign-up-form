@@ -95,8 +95,22 @@ p:nth-child(2) {
 label {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
+  margin-bottom: 3px;
 } 
+
+input {
+  border: 1px solid #D6D9DC;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+input:focus {
+  box-shadow: 2px 2px 5px grey;
+  outline: none;
+  border: none;
+}
 
 .form-actions button {
   font-size: 18px;
