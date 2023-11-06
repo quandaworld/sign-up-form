@@ -8,7 +8,7 @@
 body {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: 100%;
   color: #492915;
 }
 
@@ -17,7 +17,8 @@ body {
   background: url(/images/lucas-mendes-TkDqIqHAwew-unsplash.jpg);
   background-size: cover;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -27,6 +28,7 @@ body {
   height: 120px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 100px;
 }
 
 #brand {
@@ -37,8 +39,7 @@ body {
 
 .img-container > p {
   color: white;
-  position: absolute;
-  bottom: 3px;
+  margin-bottom: 3px;
 }
 
 .img-container a {
@@ -50,12 +51,20 @@ body {
 .form-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   background-color: antiquewhite;
-  height: 100vh;
+  padding-top: 100px;
 }
 
-header,
+header {
+  margin-bottom: 30px;
+  padding: 0 40px;
+}
+
+p:nth-child(2) {
+  margin-top: 18px;
+}
+
 .container,
 .form-actions {
   padding: 40px;
@@ -65,10 +74,6 @@ header,
 #input-header {
   font-weight: 700;
   font-size: 24px;
-}
-
-p:nth-child(2) {
-  margin-top: 18px;
 }
 
 .container > p {
@@ -98,6 +103,7 @@ label {
   font-weight: 500;
   font-size: 14px;
   margin-bottom: 3px;
+  width: 250px;
 } 
 
 input {
@@ -105,6 +111,7 @@ input {
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
+  width: 250px;
 }
 
 input:focus {
@@ -139,20 +146,21 @@ input:focus {
   color: #982B02;
 }
 
-@media only screen and (min-width: 700px) {
-  input {
-    width: 250px;
-    height: initial;
+@media only screen and (max-width: 850px) {
+  body {
+    flex-direction: column;
   }
-  label {
-    width: 250px;
-    margin-top: 7px;
+  .img-container {
+    width: 100vw;
+    height: 300px;
+  }
+  .form-container {
+    padding-top: 30px;
   }
 }
 
 footer {
   align-self: center;
-  position: absolute;
-  bottom: 3px;
+  margin-bottom: 3px;
 }
 
