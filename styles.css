@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: row;
   height: 100vh;
-  color: #361F0E;
+  color: #492915;
 }
 
 .img-container {
@@ -36,7 +36,6 @@ body {
 
 .img-container > p {
   color: white;
-  font-weight: 400;
   position: absolute;
   bottom: 3px;
 }
@@ -52,6 +51,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: antiquewhite;
+  height: 100vh;
 }
 
 header,
@@ -115,6 +115,7 @@ label {
 
 .form-actions p {
   font-weight: 500;
+  font-size: 18px;
 }
 
 .form-actions a {
@@ -133,3 +134,10 @@ label {
     margin-top: 7px;
   }
 }
+
+footer {
+  align-self: center;
+  position: absolute;
+  bottom: 3px;
+}
+
