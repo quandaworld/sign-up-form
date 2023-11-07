@@ -20,7 +20,7 @@
       <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
       <p>You <i>know</i> you want to.</p>
     </header>
-    <form action="" method="post" class="sign-up-form">
+    <form action="" method="get" class="sign-up-form">
       <div class="container">
         <p id="input-header">Your next treat begins here!</p>
         <div class="input-container">
@@ -38,7 +38,7 @@
           </div>
           <div class="input-item">
             <label for="phone-number">Phone Number</label>
-            <input type="text" id="phone-number" name="phone-number" placeholder="xxx-xxx-xxxx" required>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="xxx-xxx-xxxx" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
           </div>
           <div class="input-item">
             <label for="password">Password</label>
@@ -47,6 +47,7 @@
           <div class="input-item">
             <label for="confirm-password">Confirm Password</label>
             <input type="password" id="confirm-password" name="confirm-password" required>
+            <p id="error"></p>
           </div>
         </div>
       </div>
