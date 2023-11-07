@@ -120,6 +120,20 @@ input:focus {
   border: none;
 }
 
+input[class='error'] {
+  border: 1px solid #d55c5f;
+  color: #d55c5f;
+  box-shadow: none; 
+}
+
+#error {
+  color: #d55c5f;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: italic;
+  height: 13px;
+}
+
 .form-actions button {
   font-size: 18px;
   font-weight: 700;
