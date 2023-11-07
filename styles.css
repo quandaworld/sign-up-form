@@ -157,6 +157,9 @@ input:focus {
   .form-container {
     padding-top: 30px;
   }
+  .form-actions {
+    margin-bottom: 50px;
+  }
 }
 
 footer {
