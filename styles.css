@@ -89,6 +89,7 @@ header,
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  column-gap: 20px;
 }
 
 .input-item {
